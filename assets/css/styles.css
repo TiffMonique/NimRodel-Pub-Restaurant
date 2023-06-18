@@ -1,0 +1,121 @@
+html, body{
+  margin: 0px;
+}
+
+
+nav{
+  background: url("../img/fondo.jpg") ;
+  background-repeat: repeat-x;
+  background-size: 25%;
+  height:100%;
+  text-align: center;
+}
+
+nav img{
+  height: 50px;
+  width: 50px;
+  
+}
+
+nav a{
+  display:inline-block;
+  color : #fff;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+
+  
+}
+
+#nimrodel{
+    text-align: center;
+    font-size: 2em;
+    color: #808080;
+    margin-bottom:3rem;
+    margin-top:1.5rem;
+}
+
+.texto-con-linea {
+  text-align: center;  
+  font-size: 1em;
+}
+
+
+.texto-con-linea h2 {
+  display: inline-block;
+  border-top: 1px solid #000;
+}
+
+.destacado  {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  text-align: center;
+
+}
+
+.destacado img {
+  height: 200px;
+  width: 100% ;
+}
+
+#comuniquemonos{
+  background-color: #070707;
+  color: #fff;
+  text-align: center;
+  width: 45%;
+  border-radius:7px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#reserva{
+  background-color: #070707;
+  color: #fff;
+  text-align: center;
+  width: 45%;
+  border-radius:7px;
+  margin: 1rem auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+footer{
+    background: url("../img/fondo.jpg") !important;
+    background-repeat: repeat-x;
+    background-size: 55%;
+    width:100%;
+    height:250px; 
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    
+}
+.centrado {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  #contact-form,
+  #reservation-form {
+    display: none;
+  }
+  footer{
+    background: url("../img/fondo.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    min-width:100%;
+    height:120px; 
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+}
+
