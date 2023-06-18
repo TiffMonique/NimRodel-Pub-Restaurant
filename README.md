@@ -1,4 +1,4 @@
-# NimRodel-Pub-Restaurant
+# NimRodel Pub Restaurant
 
 Nimrodel Pub Restaurant es un oasis de calma y diversión, lleno de rincones acogedores en donde se resalta la belleza de su decoración élfica. Es un lugar ideal para visitar solo o acompañado, disfrutar una tarde con amigos, terminar el día después del trabajo o almorzar con tu familia.
 
